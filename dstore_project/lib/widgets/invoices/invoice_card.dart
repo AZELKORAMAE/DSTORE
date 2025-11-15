@@ -52,11 +52,21 @@ class InvoiceCard extends StatelessWidget {
                       ),
                     ),
                   ),
+                  // Bouton d'impression PDF
                   IconButton(
-                    onPressed: () => _printInvoice(context),
-                    icon: const Icon(Icons.print),
-                    tooltip: 'Imprimer la facture',
+                    onPressed: () => _printPDFInvoice(context),
+                    icon: const Icon(Icons.picture_as_pdf),
+                    tooltip: 'Imprimer PDF',
                     iconSize: 20,
+                    color: Colors.red,
+                  ),
+                  // Bouton d'impression thermique
+                  IconButton(
+                    onPressed: () => _printThermalInvoice(context),
+                    icon: const Icon(Icons.receipt),
+                    tooltip: 'Imprimer thermique',
+                    iconSize: 20,
+                    color: Colors.orange,
                   ),
                   _buildStatusChip(context),
                 ],
@@ -167,15 +177,15 @@ class InvoiceCard extends StatelessWidget {
     );
   }
 
-  Future<void> _printInvoice(BuildContext context) async {
+  Future<void> _printPDFInvoice(BuildContext context) async {
     try {
       final printService = InvoicePrintService();
-      await printService.printInvoice(context, invoice);
-      
+      await printService.printStandardInvoice(context, invoice);
+
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Impression lancée avec succès'),
+            content: Text('Impression PDF lancée avec succès'),
             backgroundColor: Colors.green,
           ),
         );
@@ -184,7 +194,32 @@ class InvoiceCard extends StatelessWidget {
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Erreur lors de l\'impression: $e'),
+            content: Text('Erreur lors de l\'impression PDF: $e'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
+  }
+
+  Future<void> _printThermalInvoice(BuildContext context) async {
+    try {
+      final printService = InvoicePrintService();
+      await printService.printThermalInvoice(context, invoice);
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Impression thermique lancée avec succès'),
+            backgroundColor: Colors.green,
+          ),
+        );
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Erreur lors de l\'impression thermique: $e'),
             backgroundColor: Colors.red,
           ),
         );
