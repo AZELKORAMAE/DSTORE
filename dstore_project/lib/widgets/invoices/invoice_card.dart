@@ -5,6 +5,7 @@ import '../../models/invoice_model.dart';
 import '../../config/app_router.dart';
 import '../../main.dart';
 import '../../services/invoice_print_service.dart';
+import '../../l10n/app_localizations.dart';
 
 class InvoiceCard extends StatelessWidget {
   final InvoiceModel invoice;
@@ -56,7 +57,7 @@ class InvoiceCard extends StatelessWidget {
                   IconButton(
                     onPressed: () => _printPDFInvoice(context),
                     icon: const Icon(Icons.picture_as_pdf),
-                    tooltip: 'Imprimer PDF',
+                    tooltip: AppLocalizations.of(context)!.printPDF,
                     iconSize: 20,
                     color: Colors.red,
                   ),
@@ -64,7 +65,7 @@ class InvoiceCard extends StatelessWidget {
                   IconButton(
                     onPressed: () => _printThermalInvoice(context),
                     icon: const Icon(Icons.receipt),
-                    tooltip: 'Imprimer thermique',
+                    tooltip: AppLocalizations.of(context)!.printThermal,
                     iconSize: 20,
                     color: Colors.orange,
                   ),
@@ -184,8 +185,8 @@ class InvoiceCard extends StatelessWidget {
 
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Impression PDF lancée avec succès'),
+          SnackBar(
+            content: Text(AppLocalizations.of(context)!.printingPDFSuccess),
             backgroundColor: Colors.green,
           ),
         );
@@ -194,7 +195,7 @@ class InvoiceCard extends StatelessWidget {
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Erreur lors de l\'impression PDF: $e'),
+            content: Text('${AppLocalizations.of(context)!.printingPDFError}: $e'),
             backgroundColor: Colors.red,
           ),
         );
@@ -209,8 +210,8 @@ class InvoiceCard extends StatelessWidget {
 
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Impression thermique lancée avec succès'),
+          SnackBar(
+            content: Text(AppLocalizations.of(context)!.printingThermalSuccess),
             backgroundColor: Colors.green,
           ),
         );
@@ -219,7 +220,7 @@ class InvoiceCard extends StatelessWidget {
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Erreur lors de l\'impression thermique: $e'),
+            content: Text('${AppLocalizations.of(context)!.printingThermalError}: $e'),
             backgroundColor: Colors.red,
           ),
         );

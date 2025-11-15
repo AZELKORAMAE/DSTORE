@@ -185,6 +185,14 @@
   "_REPORTS": "===== Reports =====",
   "transactionType": "Transaction type",
 
+  "_PRINTING": "===== Printing =====",
+  "printPDF": "Print PDF",
+  "printThermal": "Print thermal",
+  "printingPDFSuccess": "PDF printing started successfully",
+  "printingThermalSuccess": "Thermal printing started successfully",
+  "printingPDFError": "Error during PDF printing",
+  "printingThermalError": "Error during thermal printing",
+
   "_SETTINGS": "===== Settings =====",
   "chooseSound": "Choose sound"
 }
