@@ -2,8 +2,6 @@
   "@@locale": "en",
   "appTitle": "DStore",
   "hello": "Hello!",
-
-  "_COMMON": "===== Common =====",
   "refresh": "Refresh",
   "reset": "Reset",
   "fermer": "Close",
@@ -31,8 +29,6 @@
   "errorOccurred": "An error occurred",
   "erreurDeChargement": "Loading error",
   "retry": "Retry",
-
-  "_STATUS": "===== Status =====",
   "pending": "Pending",
   "paid": "Paid",
   "okStatus": "OK",
@@ -40,8 +36,6 @@
   "faible": "Low",
   "ruptureLabel": "Out of stock",
   "faibleLabel": "Low",
-
-  "_AUTH": "===== Authentication =====",
   "login": "Login",
   "logout": "Logout",
   "logoutConfirmation": "Confirm logout",
@@ -50,8 +44,6 @@
   "email": "Email",
   "password": "Password",
   "forgotPassword": "Forgot password?",
-
-  "_NAVIGATION": "===== Navigation =====",
   "dashboard": "Dashboard",
   "products": "Products",
   "categories": "Categories",
@@ -60,8 +52,6 @@
   "invoices": "Invoices",
   "reports": "Reports",
   "settings": "Settings",
-
-  "_DASHBOARD": "===== Dashboard =====",
   "actionsRapides": "Quick actions",
   "alertesDeStock": "Stock alerts",
   "stockFaibleLabel": "Low stock",
@@ -78,8 +68,6 @@
   "gererLesStocks": "Manage stocks",
   "min": "Min",
   "stockActuel": "Current stock",
-
-  "_QUICK_ACTIONS": "===== Quick actions =====",
   "nouvelleFacture": "New invoice",
   "facture": "Invoice",
   "ajouterProduit": "Add product",
@@ -92,8 +80,6 @@
   "accesRapideVente": "Quick sale access",
   "vente": "Sale",
   "achat": "Purchase",
-
-  "_REVENUE": "===== Revenue =====",
   "totalSales": "Total sales",
   "totalAmountLabel": "Total amount",
   "invoiceCountPlural": "invoices",
@@ -101,11 +87,7 @@
   "collected": "Collected",
   "purchases": "Purchases",
   "netProfit": "Net profit",
-
-  "_NOTIFICATIONS": "===== Notifications =====",
   "aucuneNotification": "No notifications",
-
-  "_INVOICES": "===== Invoices =====",
   "newInvoice": "New invoice",
   "createInvoice": "Create invoice",
   "invoicesEmptyTitle": "No invoices",
@@ -137,8 +119,6 @@
   "salesInvoiceTitle": "Sales Invoice",
   "purchaseVoucherTitle": "Purchase Voucher",
   "invoiceImageOptional": "Invoice image (optional)",
-
-  "_INVOICE_CUSTOMIZATION": "===== Invoice customization =====",
   "invoiceCustomizationTitle": "Invoice customization",
   "invoiceCustomizationSaved": "Customization saved",
   "invoiceCustomizationReset": "Customization reset",
@@ -159,8 +139,6 @@
   "headerTextHint": "Ex: Welcome to our store",
   "footerTextLabel": "Footer text",
   "footerTextHint": "Ex: Thank you for your trust",
-
-  "_CREDITS": "===== Credits =====",
   "clientsWithCreditsTitle": "Clients with credits",
   "loadingCredits": "Loading credits...",
   "noCreditsTitle": "No credits",
@@ -169,8 +147,6 @@
   "clientsLabel": "Clients",
   "creditsLabel": "Credits",
   "overdueLabel": "Overdue",
-
-  "_CATEGORIES": "===== Categories =====",
   "editCategory": "Edit category",
   "categoryNameLabel": "Category name",
   "categoryNameHint": "Ex: Electronics",
@@ -181,18 +157,12 @@
   "categoriesProducts": "Category products",
   "categoriesEmptyTitle": "No products in this category",
   "categoryUpdatedSuccess": "Category updated successfully",
-
-  "_REPORTS": "===== Reports =====",
   "transactionType": "Transaction type",
-
-  "_PRINTING": "===== Printing =====",
   "printPDF": "Print PDF",
   "printThermal": "Print thermal",
   "printingPDFSuccess": "PDF printing started successfully",
   "printingThermalSuccess": "Thermal printing started successfully",
   "printingPDFError": "Error during PDF printing",
   "printingThermalError": "Error during thermal printing",
-
-  "_SETTINGS": "===== Settings =====",
   "chooseSound": "Choose sound"
 }
