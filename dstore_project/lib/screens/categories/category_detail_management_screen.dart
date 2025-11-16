@@ -123,8 +123,8 @@ class _CategoryDetailManagementScreenState extends State<CategoryDetailManagemen
                   return ListTile(
                     leading: const Icon(Icons.inventory_2_outlined),
                     title: Text(p.name),
-                    subtitle: Text('${l10n.stockActuel}: ${p.stock}'),
-                    trailing: Text(p.unitPrice.toStringAsFixed(2)),
+                    subtitle: Text('${l10n.stockActuel}: ${p.stockQuantity}'),
+                    trailing: Text(p.salePrice.toStringAsFixed(2)),
                   );
                 },
                 separatorBuilder: (_, __) => const Divider(height: 1),
