@@ -9,7 +9,7 @@ import '../../providers/product_provider.dart';
 import '../../models/product_model.dart';
 import '../../config/app_router.dart';
 import '../../main.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ProductDetailScreen extends StatefulWidget {
   final String productId;

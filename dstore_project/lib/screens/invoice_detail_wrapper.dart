@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../version.dart';
-import '../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../models/invoice_model.dart';
 import '../providers/invoice_provider.dart';
 import '../screens/invoice_detail_screen.dart';

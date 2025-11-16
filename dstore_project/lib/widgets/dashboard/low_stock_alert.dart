@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../providers/product_provider.dart';
 import '../../config/app_router.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LowStockAlert extends StatefulWidget {
   const LowStockAlert({super.key});

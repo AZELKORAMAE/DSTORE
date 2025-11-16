@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../services/dashboard_service.dart';
 import '../../config/app_theme.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DailyRevenueCard extends StatefulWidget {
   const DailyRevenueCard({Key? key}) : super(key: key);

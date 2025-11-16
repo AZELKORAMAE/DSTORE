@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 import '../../providers/expense_provider.dart';
 import '../../providers/auth_provider.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../models/expense.dart';
 
 class AddExpenseScreen extends StatefulWidget {

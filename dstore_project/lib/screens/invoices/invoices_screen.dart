@@ -9,7 +9,7 @@ import '../../main.dart';
 import '../../widgets/invoices/invoice_card.dart';
 import '../../widgets/invoices/invoice_list_item.dart';
 import '../../widgets/common/search_bar_widget.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../widgets/common/filter_chip_widget.dart';
 
 class InvoicesScreen extends StatefulWidget {

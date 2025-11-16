@@ -9,7 +9,7 @@ import '../../main.dart';
 import '../../widgets/clients/client_card.dart';
 import '../../widgets/clients/client_list_item.dart';
 import '../../widgets/common/search_bar_widget.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../widgets/common/filter_chip_widget.dart';
 
 class ClientsScreen extends StatefulWidget {

@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 import '../../models/invoice_customization_model.dart';
 import '../../services/invoice_customization_service.dart';
 import '../../providers/auth_provider.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class InvoiceCustomizationScreen extends StatefulWidget {
   const InvoiceCustomizationScreen({super.key});

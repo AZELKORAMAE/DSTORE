@@ -14,7 +14,7 @@ import '../../providers/settings_provider.dart';
 import '../../providers/client_provider.dart';
 import '../../services/supplier_service.dart';
 import '../../services/sound_service.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../utils/local_storage.dart';
 import '../products/add_edit_product_screen.dart';
 

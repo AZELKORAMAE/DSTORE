@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../services/product_service.dart';
 import '../../config/app_theme.dart';
 import '../../models/product_model.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class RealLowStockCard extends StatefulWidget {
   const RealLowStockCard({Key? key}) : super(key: key);

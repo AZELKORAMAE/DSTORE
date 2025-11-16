@@ -8,7 +8,7 @@ import '../../providers/auth_provider.dart';
 import '../../providers/settings_provider.dart';
 import '../../services/sound_service.dart';
 import '../../utils/app_utils.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'advanced_settings_screen.dart';
 import 'cv_screen.dart';
 import 'support_screen.dart';

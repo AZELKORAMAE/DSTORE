@@ -18,11 +18,11 @@ import '../widgets/local_image_widget.dart';
 import '../providers/product_provider.dart';
 import '../providers/auth_provider.dart';
 import 'package:provider/provider.dart';
-import '../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../config/app_theme.dart';
 import 'package:intl/intl.dart';
-import '../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class InvoiceDetailScreen extends StatefulWidget {
   final InvoiceModel invoice;

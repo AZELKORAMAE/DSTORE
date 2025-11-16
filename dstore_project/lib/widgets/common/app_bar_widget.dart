@@ -6,7 +6,7 @@ import 'package:responsive_framework/responsive_framework.dart';
 import '../../providers/auth_provider.dart';
 import '../../providers/product_provider.dart';
 import '../../config/app_router.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final GlobalKey<ScaffoldState>? scaffoldKey;

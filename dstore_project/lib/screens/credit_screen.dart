@@ -6,7 +6,7 @@ import '../models/client_model.dart';
 import '../models/credit_model.dart';
 import '../config/app_theme.dart';
 import '../config/app_router.dart';
-import '../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class CreditScreen extends StatefulWidget {
   const CreditScreen({Key? key}) : super(key: key);

@@ -11,7 +11,7 @@ import '../../providers/auth_provider.dart';
 import '../../services/excel_import_service.dart';
 import '../../services/local_image_service.dart';
 import '../../utils/app_utils.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ImportProductsScreen extends StatefulWidget {
   const ImportProductsScreen({super.key});

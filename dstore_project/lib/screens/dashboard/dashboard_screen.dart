@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import '../../providers/dashboard_provider.dart';
 import '../../providers/auth_provider.dart';
 import '../../config/app_router.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../utils/app_utils.dart';
 import '../../widgets/dashboard/stats_card.dart';
 import '../../widgets/dashboard/quick_actions.dart';
@@ -15,7 +15,7 @@ import '../../widgets/dashboard/pos_quick_access.dart';
 import '../../widgets/dashboard/daily_revenue_card.dart';
 import '../../widgets/dashboard/real_low_stock_card.dart';
 import '../../widgets/dashboard/top_action_bar.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});

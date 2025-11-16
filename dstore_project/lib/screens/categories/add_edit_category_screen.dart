@@ -7,7 +7,7 @@ import 'package:image_picker/image_picker.dart';
 
 import '../../providers/category_provider.dart';
 import '../../models/category_model.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../utils/app_utils.dart' as apputils;
 import '../../widgets/windows_camera_capture.dart';
 

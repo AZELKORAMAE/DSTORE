@@ -12,8 +12,8 @@ import '../../widgets/products/product_list_item.dart';
 import 'import_products_screen.dart';
 import '../../widgets/search/advanced_search_bar.dart';
 import '../../widgets/common/filter_chip_widget.dart';
-import '../../l10n/app_localizations.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ProductsScreen extends StatefulWidget {
   final String? categoryId;

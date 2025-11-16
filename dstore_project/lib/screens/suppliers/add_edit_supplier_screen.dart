@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../providers/supplier_provider.dart';
 import '../../models/supplier_model.dart';
 import '../../main.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AddEditSupplierScreen extends StatefulWidget {
   final String? supplierId;

@@ -9,7 +9,7 @@ import '../../widgets/navigation/app_drawer.dart';
 import '../../widgets/navigation/bottom_navigation.dart';
 import '../../widgets/common/app_bar_widget.dart';
 import '../../utils/app_utils.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MainLayout extends StatefulWidget {
   final Widget child;

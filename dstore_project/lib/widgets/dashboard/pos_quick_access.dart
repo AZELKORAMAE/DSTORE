@@ -3,7 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../models/invoice_model.dart';
 import '../../screens/invoices/pos_screen.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class POSQuickAccess extends StatelessWidget {
   const POSQuickAccess({super.key});

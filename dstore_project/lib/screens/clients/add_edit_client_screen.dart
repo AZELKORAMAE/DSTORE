@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import '../../providers/client_provider.dart';
 import '../../models/client_model.dart';
 import '../../main.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AddEditClientScreen extends StatefulWidget {
   final String? clientId;

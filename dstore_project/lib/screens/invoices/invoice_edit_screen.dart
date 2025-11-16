@@ -17,7 +17,7 @@ import '../../utils/local_storage.dart';
 import '../../widgets/common/safe_text.dart';
 import '../../widgets/common/responsive_row.dart';
 import '../../widgets/common/search_bar_widget.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 // Classe pour representer un article dans le panier
 class CartItem {

@@ -5,7 +5,7 @@ import '../../models/invoice_model.dart';
 import '../../config/app_router.dart';
 import '../../main.dart';
 import '../../services/invoice_print_service.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class InvoiceListItem extends StatelessWidget {
   final InvoiceModel invoice;

@@ -26,7 +26,7 @@ import '../../widgets/invoices/invoice_image_picker.dart';
 import '../../widgets/common/search_bar_widget.dart';
 import '../../widgets/common/safe_text.dart';
 import '../../widgets/common/responsive_row.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../utils/local_storage.dart';
 import '../products/add_edit_product_screen.dart';
 

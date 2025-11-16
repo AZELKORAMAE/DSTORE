@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import '../../providers/supplier_provider.dart';
 import '../../config/app_router.dart';
 import '../../main.dart';
-import '../../l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../widgets/suppliers/supplier_card.dart';
 import '../../widgets/suppliers/supplier_list_item.dart';
 import '../../widgets/common/search_bar_widget.dart';
