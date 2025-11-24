@@ -45,3 +45,6 @@ api_keys.txt
 *.zip
 *.tar.gz
 *.rar
+
+# Projet dstore non lié à l'audit
+dstore_project/
