@@ -1,0 +1,18 @@
+# Dépendances Python pour la suite de tests de sécurité du jeu Crash
+# Installation: pip install -r requirements.txt
+
+# Requêtes HTTP
+requests>=2.31.0
+
+# Calculs scientifiques et statistiques
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Client WebSocket
+websocket-client>=1.6.0
+
+# Analyse de données (optionnel mais recommandé)
+pandas>=2.0.0
+
+# Génération de graphiques (optionnel)
+matplotlib>=3.7.0
